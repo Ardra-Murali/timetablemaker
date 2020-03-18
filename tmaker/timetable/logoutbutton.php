@@ -1,0 +1,1 @@
+<a href="logout.php"><button class="logout">logout</button></a>

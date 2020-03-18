@@ -1,0 +1,112 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: rgb(11, 53, 90);
+    margin: 75px 150px;
+    padding: 100px 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px rgba(16, 6, 153, 0.445);
+}
+
+.left {
+    width: 40%;
+    /* float: left; */
+    display: inline-block;
+}
+
+.right {
+    width: 40%;
+    /* float: right; */
+    display: inline-block;
+}
+
+table {
+    width: fit-content;
+    margin: auto;
+}
+
+table .center-button {
+    margin: auto;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.exlarge {
+    font-size: 50px;
+}
+
+.title {
+    font-family: fantasy;
+}
+
+.button {
+    background-color: aqua;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: rgb(51, 95, 177);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1,
+td,
+p {
+    color: rgb(219, 219, 219);
+}
+
+select {
+    width: 171px;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: rgb(13, 44, 70);
+}
+
+#customers td:hover {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.322);
+    color: white;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(163, 87, 87);
+}
